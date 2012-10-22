@@ -122,7 +122,7 @@ public class Employee implements Comparable {
         Employee e = (Employee)o;
         
         return new CompareToBuilder()
-               .append(this.employeeID, e.employeeID)
+               .append(this.ssn, e.ssn)
                .toComparison();
     }
 
